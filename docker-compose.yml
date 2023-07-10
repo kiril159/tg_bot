@@ -1,0 +1,5 @@
+version: '3.7'
+services:
+  get-transfer-ai-bot:
+    image: docker.finch.fm:5000/ai/labs/get-transfer-ai-bot:${IMAGE_TAG}
+    restart: unless-stopped

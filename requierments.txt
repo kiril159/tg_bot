@@ -1,0 +1,4 @@
+telebot
+openai
+boto3
+smart_open
